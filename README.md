@@ -73,3 +73,13 @@ After a phone call is initiated in Google Voice, and recording initiated in Auda
 Levels are adjusted to ensure that the talent and caller are audible to each other, and audible in the recording.
 
 ![Audacity](https://raw.githubusercontent.com/blargoner/pulseaudio-phone-config/master/audacity.png)
+
+## References
+
+- [PulseAudio documentation](https://www.freedesktop.org/wiki/Software/PulseAudio/Documentation/)
+ - [Modules](https://www.freedesktop.org/wiki/Software/PulseAudio/Documentation/User/Modules/)
+ - [Volume control](https://www.freedesktop.org/wiki/Software/PulseAudio/Documentation/Developer/Clients/WritingVolumeControlUIs/)
+- [The virtual-sink and virtual-source modules](https://lists.freedesktop.org/archives/pulseaudio-discuss/2010-February/006465.html)
+- [Record From Skype Calls and Other Apps on Linux](https://www.linux.com/learn/tutorials/367395-weekend-project-record-from-skype-calls-and-other-apps-on-linux)
+- [Setting up a Virtual Microphone on PulseAudio](https://xenotoad.net/blog/?p=5)
+- [How can I use PulseAudio virtual audio streams to play music over Skype?](http://askubuntu.com/questions/257992/how-can-i-use-pulseaudio-virtual-audio-streams-to-play-music-over-skype)
