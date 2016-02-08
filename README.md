@@ -66,4 +66,10 @@ load-module module-loopback source=<headphone monitor name> sink=phonemix channe
 ```
 (The required source names can be found with `pactl list sources`.)
 
-After a phone call is initiated in Google Voice, and recording initiated in Audacity, the source outputs to Google Voice and Audacity are configured using the PulseAudio Volume Control GUI. PulseAudio persists these mappings. Levels are adjusted to ensure that the talent and caller are audible to each other, and audible in the recording.
+After a phone call is initiated in Google Voice, and recording initiated in Audacity, the source outputs to Google Voice and Audacity are configured using the PulseAudio Volume Control GUI. PulseAudio persists these mappings.
+
+![PulseAudio Volume Control](https://raw.githubusercontent.com/blargoner/pulseaudio-phone-config/master/pavucontrol.png)
+
+Levels are adjusted to ensure that the talent and caller are audible to each other, and audible in the recording.
+
+![Audacity](https://raw.githubusercontent.com/blargoner/pulseaudio-phone-config/master/audacity.png)
